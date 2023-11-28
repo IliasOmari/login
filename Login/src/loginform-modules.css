@@ -19,14 +19,20 @@ body {
 
 .form_area {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   border: 1px solid black;
   width: 500px;
   height: 368px;
   box-shadow: 0.2rem 0.2rem 0 #000000;
   background-color: white;
+}
+.align {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .sub_title {
@@ -69,7 +75,7 @@ body {
 
 .btn {
   padding: 15px;
-  margin: 30px 0px;
+  margin-top: 20px;
   width: 150px;
   height: 50px;
   cursor: pointer;
@@ -102,4 +108,52 @@ body {
   margin-top: 50px;
   text-align: center;
   font-size: 24px;
+}
+
+.profile_name,
+.profile_mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_name p,
+.profile_mail p {
+  margin-left: 20px;
+}
+
+.profile_name h1,
+.profile_mail h1 {
+  font-size: 20px;
+}
+.google-btn {
+  padding: 15px;
+  width: 120px;
+  height: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  background: whitesmoke;
+  border: 0.1rem solid #000000;
+  border-radius: 0.4rem;
+  font-weight: 800;
+  box-shadow: 0.2rem 0.2rem 0 #000000;
+  color: black;
+  text-decoration: none;
+  font-family: Poppins;
+  font-weight: bolder;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.register {
+  margin-top: 10px;
+}
+.register a {
+  text-decoration: none;
+}
+.register span {
+  font-weight: bold;
+  color: #e7275c;
 }
