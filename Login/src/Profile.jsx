@@ -5,7 +5,7 @@ const Profile = () => {
   const user = useOutletContext();
   console.log(user);
   const handleLogout = () => {
-    window.open("http://localhost:3000/logout", "_self");
+    window.open("https://loginapi-1lxz.onrender.com/logout", "_self");
     localStorage.clear();
   };
 

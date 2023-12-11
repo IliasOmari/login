@@ -9,11 +9,11 @@ const LoginForm = () => {
 
   const googleLogin = () => {
     localStorage.setItem("type", JSON.stringify("google"));
-    window.open("http://localhost:3000/auth/google");
+    window.open("https://loginapi-1lxz.onrender.com/auth/google");
   };
   const handleLogin = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3000/login", {
+    fetch("https://loginapi-1lxz.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
