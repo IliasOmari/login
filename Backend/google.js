@@ -11,7 +11,7 @@ router.get(
   "/google/callback",
   passport.authenticate("google", {
     failureRedirect: "/google/failed",
-    successRedirect: "http://localhost:5173/profile",
+    successRedirect: "https://loginsystem-51fq.onrender.com//profile",
   })
 );
 router.get("/google/failed", (req, res) => {

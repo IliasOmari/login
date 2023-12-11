@@ -8,7 +8,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "http://localhost:3000/auth/google/callback",
+      callbackURL: "https://loginapi-1lxz.onrender.com/auth/google/callback",
     },
     function (accessToken, refreshToken, profile, done) {
       done(null, profile);

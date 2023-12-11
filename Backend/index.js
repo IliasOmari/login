@@ -10,7 +10,7 @@ const users = [];
 require("./passport");
 app.use(
   cors({
-    origin: "https://loginsystem-51fq.onrender.com/",
+    origin: "https://loginsystem-51fq.onrender.com",
     credentials: true,
   })
 );
