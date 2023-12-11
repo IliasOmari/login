@@ -21,6 +21,7 @@ app.use(
     secret: "ilias",
     resave: false,
     saveUninitialized: false,
+    proxy: true,
     cookie: {
       httpOnly: true,
       maxAge: 24 * 60 * 60 * 100,
