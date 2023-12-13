@@ -168,7 +168,7 @@ body {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 431px) {
   .form_area {
     width: 406px;
   }
