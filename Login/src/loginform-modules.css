@@ -157,3 +157,23 @@ body {
   font-weight: bold;
   color: #e7275c;
 }
+
+@media (min-width: 375px) {
+  .form_area {
+    width: 353px;
+  }
+
+  .form_style {
+    width: 280px;
+  }
+}
+
+@media (min-width: 425px) {
+  .form_area {
+    width: 406px;
+  }
+
+  .form_style {
+    width: 320px;
+  }
+}
